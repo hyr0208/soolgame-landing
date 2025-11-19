@@ -1,4 +1,6 @@
 import React from "react";
+import appStoreImage from "../../assets/image/landingApp.png";
+import googlePlayImage from "../../assets/image/landingGoogle.png";
 
 function MainPage() {
   const scrollToNext = () => {
@@ -144,17 +146,19 @@ function MainPage() {
             SOOLGAME, 지금 바로 다운받아 즐겨보세요!
           </h2>
           <div className="flex flex-col md:flex-row gap-4 justify-center items-center mt-12">
-            <a
-              href="#"
-              className="px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-lg text-xl font-semibold transition-colors"
-            >
-              App Store
+            <a href="#" className="hover:opacity-80 transition-opacity">
+              <img
+                src={appStoreImage}
+                alt="App Store에서 다운로드"
+                className="h-10 md:h-12"
+              />
             </a>
-            <a
-              href="#"
-              className="px-8 py-4 bg-green-600 hover:bg-green-700 rounded-lg text-xl font-semibold transition-colors"
-            >
-              Google Play
+            <a href="#" className="hover:opacity-80 transition-opacity">
+              <img
+                src={googlePlayImage}
+                alt="Google Play에서 다운로드"
+                className="h-10 md:h-12"
+              />
             </a>
           </div>
         </div>
