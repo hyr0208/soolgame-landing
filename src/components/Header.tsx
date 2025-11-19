@@ -48,7 +48,7 @@ function Header({ show }: HeaderProps) {
           : "opacity-0 -translate-y-full"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 py-6 flex items-center justify-between">
+      <div className="max-w-full mx-auto px-20 py-6 flex items-center justify-between">
         <Link
           to="/"
           onClick={scrollToTop}
