@@ -46,7 +46,7 @@ function MainPage() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-20 px-4 bg-gray-900">
+      <section id="stats" className="py-20 px-4 bg-gray-900">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           <div>
             <div className="text-4xl md:text-5xl font-bold mb-2">
@@ -66,7 +66,7 @@ function MainPage() {
       </section>
 
       {/* Features Section */}
-      <section className="py-20 px-4">
+      <section id="features" className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
             32가지로 즐기는 멀티배틀게임
@@ -106,7 +106,7 @@ function MainPage() {
       </section>
 
       {/* Game Info Section */}
-      <section className="py-20 px-4 bg-gray-900">
+      <section id="games" className="py-20 px-4 bg-gray-900">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-8">
             한판에 10초면 OK!
@@ -128,7 +128,7 @@ function MainPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4">
+      <section id="download" className="py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-8">
             SOOLGAME, 지금 바로 다운받아 즐겨보세요!
