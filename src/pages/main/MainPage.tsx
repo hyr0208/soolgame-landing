@@ -131,7 +131,7 @@ function MainPage() {
       <section className="py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-8">
-            소울게임, 지금 바로 다운받아 즐겨보세요!
+            SOOLGAME, 지금 바로 다운받아 즐겨보세요!
           </h2>
           <div className="flex flex-col md:flex-row gap-4 justify-center items-center mt-12">
             <a
